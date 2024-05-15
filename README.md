@@ -25,12 +25,12 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 # alias-tips
 git clone https://github.com/djui/alias-tips.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/alias-tips
 
+# autojump
+git clone https://github.com/wting/autojump.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/autojump
+${ZSH_CUSTOM:-$ZSH/custom}/plugins/autojump/install.py
+
 # batcat
 sudo apt install bat
 git clone https://github.com/fdellwing/zsh-bat.git  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-bat
 
-# autojump
-git clone https://github.com/wting/autojump.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/autojump
-cd ${ZSH_CUSTOM:-$ZSH/custom}/plugins/autojump
-./install.sh
 ```
