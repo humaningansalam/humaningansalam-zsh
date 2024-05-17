@@ -34,3 +34,8 @@ sudo apt install bat
 git clone https://github.com/fdellwing/zsh-bat.git  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-bat
 
 ```
+
+themes install
+``` bash
+git clone https://github.com/romkatv/powerlevel10k.git  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+```
