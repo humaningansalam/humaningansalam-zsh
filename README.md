@@ -37,5 +37,11 @@ git clone https://github.com/fdellwing/zsh-bat.git  ${ZSH_CUSTOM:-~/.oh-my-zsh/c
 
 themes install
 ``` bash
+# p10k 
 git clone https://github.com/romkatv/powerlevel10k.git  ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+
+# Need font 
+# MesloLGS NF Regular
+# https://github.com/romkatv/powerlevel10k-media
+
 ```
