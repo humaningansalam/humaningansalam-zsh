@@ -4,6 +4,7 @@
 !.gitignore
 # `.zshrc` 파일과 사용자 정의 디렉토리 포함
 !.zshrc
+!.p10k.zsh
 !.oh-my-zsh/custom/
 
 
